@@ -1,0 +1,7 @@
+.space-td {
+    width: 550px;
+}
+
+input.form-control.no-radio {
+    width: 15px !important;
+}
