@@ -43,12 +43,9 @@ class ProductGalleryController extends Controller
    
         $destinationPath = public_path('storage/assets/product');
         $image->move($destinationPath, $input['imagename']);
-        // 
+        
         $data['photo'] = 'assets/product/'.$input['imagename'];
         $data['thumb'] = 'assets/product/thumbnails/'.$input['imagename'];
-
-        // dd($data);
-        // exit();
 
         ProductGallery::create($data);
         return redirect()->route('product-galleries.index');
