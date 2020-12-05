@@ -26,20 +26,20 @@
                 <li>
                     <a href="{{ route('products.index') }}">
                         <i class="fas fa-box"></i>
-                        <span>Lihat Produk</span>
+                        <span>Daftar Produk</span>
                     </a>
                 </li>
                 <li>
                     <a href="{{ route('products.create') }}">
                         <i class="fas fa-truck-loading"></i>
-                        <span>Tambah Barang</span>
+                        <span>Tambah Data Produk</span>
                     </a>
                 </li>
                 <li class="menu-header">Foto Barang</li>
                 <li>
                     <a href="{{ route('product-galleries.index') }}">
                         <i class="fas fa-images"></i>
-                        <span>Lihat Foto Barang</span>
+                        <span>Daftar Foto Barang</span>
                     </a>
                 </li>
                 <li>
@@ -52,7 +52,7 @@
                 <li>
                     <a href="{{ route('transactions.index') }}">
                         <i class="fas fa-hand-holding-usd"></i>
-                        <span>Lihat Transaksi</span>
+                        <span>Daftar Transaksi</span>
                     </a>
                 </li>
             </ul>

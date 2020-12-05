@@ -1,6 +1,6 @@
 @extends('layouts.backend')
 
-@section('title', 'Category Create')
+@section('title', 'Buat Foto Produk')
 @section('content')
     <div class="section-header">
         <h1>Buat Foto Baru</h1>

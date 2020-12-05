@@ -1,5 +1,11 @@
 @extends('layouts.backend')
 @section('content')
+<div class="section-header">
+    <a href="{{ route('products.index') }}">
+        <h1>Daftar Produk</h1>
+    </a>
+</div>
+<div class="section-body">
     <div class="row">
         <div class="col-12">
             <div class="card">
@@ -57,4 +63,5 @@
             </div>
         </div>
     </div>
+</div>
 @endsection()

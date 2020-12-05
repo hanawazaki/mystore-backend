@@ -1,5 +1,6 @@
 @extends('layouts.backend')
 
+@section('title', 'Daftar Kategori')
 @section('content')
     <div class="section-header">
         <a href="{{ route('products.index') }}">

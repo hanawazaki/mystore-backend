@@ -1,6 +1,6 @@
 @extends('layouts.backend')
 
-@section('title', 'Product Edit')
+@section('title', 'Ubah Data Produk')
 @section('content')
     <div class="section-header">
         <h1>Ubah Produk - {{ $item->name }}</h1>
