@@ -43,6 +43,7 @@
     <script src="{{ asset('stisla/modules/moment.min.js') }}"></script>
     <script src="{{ asset('stisla/js/stisla.js') }}"></script>
 
+
     <!-- Plugins -->
     @yield('plugin')
     <!-- Page Specific JS File -->

@@ -18,9 +18,9 @@ use App\Http\Controllers\ProductGalleryController;
 |
 */
 
-Route::view('/', 'welcome')->name('welcome');
 
 Route::middleware('auth', 'verified')->group(function () {
+	Route::view('/', 'dashboard')->name('dashboard');
 	Route::view('dashboard', 'dashboard')->name('dashboard');
 	Route::view('profile', 'profile')->name('profile');
 
