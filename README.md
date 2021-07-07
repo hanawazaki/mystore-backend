@@ -5,7 +5,7 @@ yang mengguanakan vueJS seperti API dan admin. shayna store adalah project dari 
 Sedikit perubahan dengan laravel 8 dan stisla (www.getstisla.com) sebagai theme nya.
 
 <b>Setup and Installation<b>
-1. Run `git clone project https://github.com/hanawazaki/mystore-backend.git`
+1. Run `git clone https://github.com/hanawazaki/mystore-backend.git`
 2. Run `composer install`
 3. Run `php artisan storage:link`
 4. Create folder `assets/product` in `storage/app/public` (sementara manual dulu)
